@@ -383,11 +383,13 @@ footer {
 footer .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 footer .line-footer {
     padding: 20px 0;
 }
+
 
 .borda {
     border-top: 2px solid #7fffd4 ;
@@ -400,7 +402,12 @@ footer .line-footer {
 
 footer .line-footer p svg{
     color: #7fffd4;
-    font-size: 22px;
+    width: 15px;
+}
+
+footer .line-footer p {
+    font-size: 21px;
+    
 }
 
 .direitos {
